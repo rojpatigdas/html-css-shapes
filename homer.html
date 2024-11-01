@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>CSS Shapes</title>
-    <link rel="stylesheet" href="./style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Homer Simpson in CSS</title>
+    <meta name="description" content="Homer Simpmson in CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./homer.css">
+    <script type="text/javascript">
+        if(navigator.userAgent.indexOf("WebKit") != -1) {
+            var link = document.createElement('link');
+            link.href='css/homer-webkit.css';
+            link.rel='stylesheet';
+
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
 </head>
-
 <body>
-    <h3>Triangle</h3>
-    <div class="triangle"></div>
-    <h3>Circle</h3>
-    <div class="circle"></div>
-    <h3>Trapezoid</h3>
-    <div class="trapezoid"></div>
-    <h3>Parallelogram</h3>
-    <div class="parallelogram"></div>
-
-
 
     <div id="homer">
         <div class="head">
@@ -76,6 +78,6 @@
             </div>
         </div>
     </div>
+    
 </body>
-
 </html>
