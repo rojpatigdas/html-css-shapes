@@ -1,0 +1,8 @@
+
+.up-arrow {
+    width: 0;
+    height: 0;
+    border-left: 50px solid yellow;
+    border-right: 50px solid yellow;
+    border-bottom: 50px solid black;
+}
